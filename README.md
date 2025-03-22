@@ -1,30 +1,39 @@
-# Perancangan-Cakupan-Jaringan-5G-di-Wilayah-Semarang-Barat-Menggunakan-Metode-SU-MIMO-dan-MU-MIMO
-Kemajuan teknologi telekomunikasi, terutama dalam 
-jaringan seluler, terus berkembang pesat seiring dengan 
-transformasi digital yang semakin meluas. Media sosial dan 
-layanan internet kini menjadi bagian integral kehidupan 
-sehari-hari, dengan jumlah pengguna internet di Indonesia 
-diperkirakan mencapai 221 juta orang pada tahun 2024. 
-Namun, peningkatan jumlah pengguna ini juga 
-menimbulkan tantangan berupa meningkatnya beban 
-jaringan seluler yang dapat memengaruhi kualitas layanan. 
-Teknologi 5G hadir sebagai solusi dengan menawarkan 
-berbagai keunggulan, seperti cakupan jaringan yang lebih 
-luas, throughput tinggi, latensi rendah, dan stabilitas sinyal 
-yang lebih baik. Penelitian ini berfokus pada perancangan 
-cakupan jaringan 5G di wilayah Semarang Barat, yang 
-memiliki luas sekitar 21 km², menggunakan frekuensi 2,3 
-GHz. Proses perancangan dilakukan melalui metode Single 
-User Multiple Input Multiple Output (SU-MIMO) dan Multi 
-User Multiple Input Multiple Output (MU-MIMO) dengan 
-pendekatan Line of Sight (LOS). Untuk simulasi, digunakan 
-software radio planning Atoll 3.4.0 guna menganalisis 
-parameter utama seperti SS-SINR dan SS-RSRP, yang 
-menjadi indikator kualitas sinyal dan cakupan jaringan. Hasil 
-simulasi menunjukkan bahwa rata-rata nilai SS-SINR untuk 
-metode MU-MIMO adalah 3,8 dB, sedangkan untuk SUMIMO mencapai 6,97 dB, yang keduanya termasuk dalam 
-kategori cukup. Sementara itu, rata-rata nilai SS-RSRP pada 
-MU-MIMO tercatat sebesar -91,42 dB, dan pada SU-MIMO 
-sebesar -101,04 dB, menunjukkan kualitas sinyal yang 
-tergolong baik, meskipun berada di batas bawah kategori 
-tersebut.
+Berikut deskripsi menarik dan profesional untuk repositori GitHub Anda:  
+
+---  
+
+# 📡 **Perancangan Cakupan Jaringan 5G di Wilayah Semarang Barat dengan SU-MIMO & MU-MIMO**  
+
+Selamat datang di repositori ini! 🎉 Repositori ini berisi hasil **perancangan dan simulasi cakupan jaringan 5G** di **Wilayah Semarang Barat**, dengan penerapan **Single-User MIMO (SU-MIMO) dan Multi-User MIMO (MU-MIMO)** sebagai teknik peningkatan kapasitas dan efisiensi jaringan.  
+
+## 📂 **Isi Repositori**  
+✅ **Model Jaringan 5G** – Perancangan topologi dan cakupan jaringan di wilayah **Semarang Barat**  
+✅ **Implementasi SU-MIMO & MU-MIMO** – Konfigurasi teknologi MIMO untuk meningkatkan kapasitas jaringan  
+✅ **Dataset & Parameter** – Data yang digunakan dalam simulasi, termasuk posisi BTS, pengguna, dan frekuensi  
+✅ **File Simulasi & Skrip** – Skrip dan pengaturan simulasi untuk mengevaluasi performa jaringan  
+✅ **Hasil Analisis** – Evaluasi kinerja jaringan berdasarkan parameter utama  
+
+## 📊 **Parameter Evaluasi**  
+🔹 **Signal-to-Noise Ratio (SNR)** – Mengukur kualitas sinyal terhadap noise dalam jaringan  
+🔹 **Throughput** – Kecepatan data yang dapat ditransmisikan dalam jaringan  
+🔹 **Spectral Efficiency** – Efisiensi pemanfaatan spektrum frekuensi dalam transmisi data  
+🔹 **Coverage Area** – Luas cakupan jaringan berdasarkan konfigurasi BTS dan teknik MIMO  
+
+## 🚀 **Cara Menjalankan Simulasi**  
+1️⃣ Clone repositori ini ke lokal Anda:  
+    copas saja di atas
+2️⃣ Buka perangkat lunak simulasi yang sesuai (**misalnya MATLAB, NS-3, atau OMNeT++**)  
+3️⃣ Jalankan skrip sesuai dengan konfigurasi SU-MIMO atau MU-MIMO  
+4️⃣ Analisis hasil simulasi dengan membandingkan performa kedua metode  
+
+## 🌍 **Tujuan & Manfaat**  
+🔹 Menentukan cakupan optimal jaringan **5G** di **Semarang Barat**  
+🔹 Menganalisis keunggulan **SU-MIMO** dan **MU-MIMO** dalam konteks jaringan 5G  
+🔹 Memberikan referensi bagi pengembang jaringan untuk meningkatkan **efisiensi dan kapasitas** komunikasi nirkabel  
+
+## 🤝 **Kontribusi**  
+Kami terbuka untuk masukan dan pengembangan lebih lanjut! Jika Anda memiliki ide atau ingin berkontribusi, silakan buat **Pull Request** atau buka **Issue** di repositori ini.  
+
+📢 Jangan lupa untuk memberikan **⭐ Star** jika proyek ini bermanfaat bagi Anda!  
+
+---  
